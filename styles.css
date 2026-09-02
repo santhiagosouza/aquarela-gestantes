@@ -325,26 +325,26 @@ button {
 
 /* Oferta e Destaque de Preço (De R$800 por R$500) */
 .price-box {
-  background-color: var(--color-surface);
-  border-left: 5px solid var(--color-primary);
-  padding: 1.35rem 1.6rem;
+  background-color: #1A1B26;
+  padding: 1.4rem 1.65rem;
   border-radius: var(--radius-md);
-  box-shadow: var(--shadow-md);
+  box-shadow: 0 12px 35px rgba(26, 27, 38, 0.35);
   margin-bottom: 2rem;
   width: 100%;
   max-width: 480px;
-  border-top: 1px solid var(--color-border);
-  border-right: 1px solid var(--color-border);
-  border-bottom: 1px solid var(--color-border);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-left: 5px solid var(--color-primary);
+  position: relative;
+  overflow: hidden;
 }
 
 .price-box-header {
   font-size: 0.85rem;
   text-transform: uppercase;
-  letter-spacing: 1px;
-  color: var(--color-primary-dark);
+  letter-spacing: 1.5px;
+  color: var(--color-accent-yellow);
   font-weight: 800;
-  margin-bottom: 0.35rem;
+  margin-bottom: 0.4rem;
 }
 
 .price-values {
@@ -355,28 +355,32 @@ button {
 }
 
 .price-old {
+  font-family: var(--font-sans);
   font-size: 1.3rem;
-  color: var(--color-text-muted);
+  color: #A0A4B8;
   text-decoration: line-through;
-  opacity: 0.8;
+  font-weight: 600;
 }
 
 .price-new {
-  font-family: var(--font-serif);
-  font-size: 2.6rem;
-  font-weight: 700;
-  color: var(--color-primary-dark);
+  font-family: var(--font-sans);
+  font-size: 2.65rem;
+  font-weight: 800;
+  color: #FFFFFF;
+  letter-spacing: -0.5px;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 }
 
 .price-discount-badge {
-  background: linear-gradient(135deg, #E65100, var(--color-primary-dark));
-  color: white;
-  font-size: 0.8rem;
+  background: linear-gradient(135deg, var(--color-primary-dark), var(--color-primary));
+  color: #FFFFFF;
+  font-family: var(--font-sans);
+  font-size: 0.82rem;
   font-weight: 800;
-  padding: 0.3rem 0.7rem;
+  padding: 0.3rem 0.75rem;
   border-radius: 6px;
   vertical-align: middle;
-  box-shadow: 0 2px 8px rgba(224, 72, 40, 0.3);
+  box-shadow: 0 4px 12px rgba(224, 72, 40, 0.4);
 }
 
 /* Botões de Ação WhatsApp (CTA) */
@@ -1021,11 +1025,41 @@ button {
 
 .final-price-tag {
   display: inline-block;
-  background-color: var(--color-surface-warm);
-  padding: 1rem 2rem;
+  background-color: #1A1B26;
+  padding: 1.25rem 2.2rem;
   border-radius: var(--radius-md);
   margin-bottom: 2rem;
-  border: 2px dashed var(--color-primary);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-left: 5px solid var(--color-primary);
+  box-shadow: 0 10px 30px rgba(26, 27, 38, 0.25);
+  text-align: center;
+}
+
+.final-price-tag .price-label {
+  display: block;
+  font-size: 0.85rem;
+  color: var(--color-accent-yellow);
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-weight: 800;
+  margin-bottom: 0.35rem;
+}
+
+.final-price-tag .price-old-text {
+  text-decoration: line-through;
+  color: #A0A4B8;
+  font-size: 1.2rem;
+  margin-right: 0.75rem;
+  font-family: var(--font-sans);
+  font-weight: 600;
+}
+
+.final-price-tag .price-new-text {
+  font-family: var(--font-sans);
+  font-size: 2.45rem;
+  font-weight: 800;
+  color: #FFFFFF;
+  letter-spacing: -0.5px;
 }
 
 /* --------------------------------------------------------------------------
