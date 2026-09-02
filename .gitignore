@@ -1,0 +1,13 @@
+# Arquivos do Sistema Operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs e Temporários
+*.log
+node_modules/
+npm-debug.log*
+
+# Configurações de IDE
+.vscode/
+.idea/

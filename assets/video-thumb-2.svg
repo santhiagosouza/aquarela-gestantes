@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <defs>
+    <linearGradient id="vidGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2C2A29" opacity="0.6" />
+      <stop offset="100%" stop-color="#8FA89B" opacity="0.8" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="800" fill="#F5EBE6" />
+  <circle cx="300" cy="350" r="250" fill="#E8C5B8" opacity="0.4" />
+  <rect width="600" height="800" fill="url(#vidGrad2)" />
+  
+  <g transform="translate(300, 360)">
+    <circle cx="0" cy="0" r="55" fill="#FFFFFF" opacity="0.95" />
+    <polygon points="-12,-20 22,0 -12,20" fill="#8FA89B" />
+  </g>
+  
+  <text x="300" y="520" font-family="'Cormorant Garamond', serif" font-size="26" font-style="italic" font-weight="600" fill="#FFFFFF" text-anchor="middle">"O papai chorou vendo as fotos!"</text>
+  <text x="300" y="560" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="700" fill="#FAF7F2" text-anchor="middle">Camila &amp; Rafael (mães da Maya)</text>
+  
+  <rect x="100" y="680" width="400" height="60" rx="30" fill="#FFFFFF" opacity="0.9" />
+  <text x="300" y="718" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="700" fill="#8FA89B" text-anchor="middle">[[VIDEO_DEPOIMENTO_2]]</text>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" width="600" height="750">
+  <defs>
+    <linearGradient id="bgGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF7F2" />
+      <stop offset="100%" stop-color="#E8C5B8" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="750" fill="url(#bgGrad3)" />
+  <circle cx="200" cy="400" r="160" fill="#8FA89B" opacity="0.35" />
+  <circle cx="380" cy="280" r="140" fill="#C47A5A" opacity="0.3" />
+  <text x="300" y="660" font-family="'Cormorant Garamond', serif" font-size="22" font-weight="700" fill="#2C2A29" text-anchor="middle">[[FOTO_PORTFOLIO_3]]</text>
+  <text x="300" y="690" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" fill="#6B6562" text-anchor="middle">Luz Natural &amp; Detalhes da Barriga</text>
+</svg>

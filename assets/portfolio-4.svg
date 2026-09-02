@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" width="600" height="750">
+  <rect width="600" height="750" fill="#F5EBE6" />
+  <circle cx="300" cy="350" r="190" fill="#E8C5B8" opacity="0.6" />
+  <path d="M 150,550 C 250,300 350,300 450,550 Z" fill="#8FA89B" opacity="0.4" />
+  <text x="300" y="660" font-family="'Cormorant Garamond', serif" font-size="22" font-weight="700" fill="#2C2A29" text-anchor="middle">[[FOTO_PORTFOLIO_4]]</text>
+  <text x="300" y="690" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" fill="#6B6562" text-anchor="middle">Figurino Fluído &amp; Movimento</text>
+</svg>

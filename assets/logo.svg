@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" width="400" height="120">
+  <defs>
+    <linearGradient id="aquarelaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8C5B8" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#C47A5A" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#8FA89B" stop-opacity="0.8"/>
+    </linearGradient>
+  </defs>
+  <!-- Blob de aquarela suave de fundo -->
+  <path d="M 40,60 C 20,20 120,10 180,30 C 240,50 340,15 370,50 C 400,85 310,110 230,105 C 150,100 60,100 40,60 Z" fill="url(#aquarelaGrad)" opacity="0.4" />
+  <!-- Ícone sutil de lente/câmera com pétalas -->
+  <g transform="translate(45, 35)">
+    <circle cx="25" cy="25" r="20" fill="none" stroke="#A65D40" stroke-width="2.5" opacity="0.8"/>
+    <circle cx="25" cy="25" r="10" fill="none" stroke="#8FA89B" stroke-width="2"/>
+    <circle cx="25" cy="25" r="4" fill="#C47A5A"/>
+  </g>
+  <!-- Texto Principal -->
+  <text x="110" y="58" font-family="'Cormorant Garamond', Georgia, serif" font-size="38" font-weight="700" fill="#2C2A29" letter-spacing="1.5">Aquarela</text>
+  <text x="112" y="80" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="500" fill="#6B6562" letter-spacing="4">FOTO &amp; VÍDEO</text>
+</svg>

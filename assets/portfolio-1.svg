@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+  <defs>
+    <linearGradient id="bgGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF7F2" />
+      <stop offset="50%" stop-color="#F5EBE6" />
+      <stop offset="100%" stop-color="#E8C5B8" />
+    </linearGradient>
+    <radialGradient id="sunLight" cx="30%" cy="20%" r="70%">
+      <stop offset="0%" stop-color="#FFF8EE" stop-opacity="0.9" />
+      <stop offset="60%" stop-color="#E8C5B8" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#C47A5A" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bgGrad1)" />
+  <rect width="800" height="1000" fill="url(#sunLight)" />
+  <!-- Elementos artísticos aquarelados -->
+  <circle cx="200" cy="300" r="250" fill="#E8C5B8" opacity="0.3" filter="blur(40px)" />
+  <circle cx="600" cy="700" r="280" fill="#8FA89B" opacity="0.25" filter="blur(50px)" />
+  
+  <!-- Ilustração Artística da Gestante -->
+  <g transform="translate(180, 150)" opacity="0.85">
+    <!-- Vestido fluído -->
+    <path d="M 200,280 C 170,320 120,450 100,700 C 220,720 340,710 400,680 C 350,480 270,330 250,280 Z" fill="#C47A5A" opacity="0.35" />
+    <path d="M 210,300 C 190,380 140,520 130,690 C 210,705 310,695 360,670 C 320,500 260,360 230,300 Z" fill="#FAF7F2" opacity="0.6" />
+    <!-- Silhueta acolhedora da mãe segurando a barriga -->
+    <circle cx="220" cy="120" r="45" fill="#A65D40" opacity="0.8" />
+    <path d="M 220,165 C 190,190 170,240 180,310 C 220,330 270,330 290,290 C 270,230 240,190 220,165 Z" fill="#A65D40" opacity="0.8" />
+    <!-- Barriguinha de gestante em destaque -->
+    <circle cx="240" cy="360" r="85" fill="#C47A5A" opacity="0.75" />
+    <!-- Braços abraçando com carinho -->
+    <path d="M 180,240 Q 150,330 200,380 Q 240,410 270,370" fill="none" stroke="#FAF7F2" stroke-width="12" stroke-linecap="round" />
+    <path d="M 260,240 Q 290,320 270,370" fill="none" stroke="#FAF7F2" stroke-width="10" stroke-linecap="round" />
+  </g>
+
+  <!-- Overlay Text para Placeholder -->
+  <rect x="50" y="860" width="700" height="90" rx="16" fill="#FFFFFF" opacity="0.9" />
+  <text x="400" y="900" font-family="'Cormorant Garamond', serif" font-size="24" font-weight="700" fill="#C47A5A" text-anchor="middle">[[FOTO_PORTFOLIO_1]]</text>
+  <text x="400" y="930" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" fill="#6B6562" text-anchor="middle">Substitua este arquivo pela foto em destaque do ensaio</text>
+</svg>

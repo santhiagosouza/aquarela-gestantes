@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <defs>
+    <linearGradient id="vidGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2C2A29" opacity="0.65" />
+      <stop offset="100%" stop-color="#A65D40" opacity="0.85" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="800" fill="#FAF7F2" />
+  <circle cx="300" cy="400" r="260" fill="#C47A5A" opacity="0.3" />
+  <rect width="600" height="800" fill="url(#vidGrad3)" />
+  
+  <g transform="translate(300, 360)">
+    <circle cx="0" cy="0" r="55" fill="#FFFFFF" opacity="0.95" />
+    <polygon points="-12,-20 22,0 -12,20" fill="#A65D40" />
+  </g>
+  
+  <text x="300" y="520" font-family="'Cormorant Garamond', serif" font-size="26" font-style="italic" font-weight="600" fill="#FFFFFF" text-anchor="middle">"A melhor lembrança da minha gravidez"</text>
+  <text x="300" y="560" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="700" fill="#FAF7F2" text-anchor="middle">Juliana (mãe do Gael)</text>
+  
+  <rect x="100" y="680" width="400" height="60" rx="30" fill="#FFFFFF" opacity="0.9" />
+  <text x="300" y="718" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="700" fill="#A65D40" text-anchor="middle">[[VIDEO_DEPOIMENTO_3]]</text>
+</svg>
