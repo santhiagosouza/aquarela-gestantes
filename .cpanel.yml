@@ -3,3 +3,10 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home2/aquarela/public_html/
     - /bin/cp -R index.html styles.css script.js .htaccess assets $DEPLOYPATH
+    - /bin/chmod 644 $DEPLOYPATH/index.html
+    - /bin/chmod 644 $DEPLOYPATH/styles.css
+    - /bin/chmod 644 $DEPLOYPATH/script.js
+    - /bin/chmod 644 $DEPLOYPATH/.htaccess
+    - /bin/chmod 755 $DEPLOYPATH/assets
+    - /bin/find $DEPLOYPATH/assets -type f -exec /bin/chmod 644 {} +
+    - /bin/find $DEPLOYPATH/assets -type d -exec /bin/chmod 755 {} +
