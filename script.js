@@ -46,11 +46,16 @@ function openWhatsApp(ctaLocation = 'desconhecido') {
     offer_price: 500
   });
 
-  // 3. Monta a URL do WhatsApp
+  // 3. Abre o modal SST se estiver presente
+  const popupOverlay = document.getElementById('sst-popup-overlay');
+  if (popupOverlay) {
+    popupOverlay.classList.add('active');
+    return;
+  }
+
+  // 4. Monta a URL do WhatsApp de reserva
   const encodedText = encodeURIComponent(CONFIG.defaultMessage);
   const waUrl = `https://wa.me/${CONFIG.whatsappNumber}?text=${encodedText}`;
-
-  // 4. Redireciona para o WhatsApp
   window.open(waUrl, '_blank');
 }
 
