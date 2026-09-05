@@ -1227,35 +1227,4 @@ button {
   justify-content: center;
 }
 
-.sticky-whatsapp-mobile {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  z-index: 990;
-  background-color: var(--color-whatsapp);
-  color: white;
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 0 8px 25px rgba(37, 211, 102, 0.5);
-  transition: var(--transition-fast);
-}
 
-.sticky-whatsapp-mobile:hover {
-  transform: scale(1.1);
-}
-
-.sticky-whatsapp-mobile svg {
-  width: 32px;
-  height: 32px;
-  fill: white;
-}
-
-@media (min-width: 768px) {
-  .sticky-whatsapp-mobile {
-    display: none;
-  }
-}
