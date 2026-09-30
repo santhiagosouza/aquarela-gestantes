@@ -12,10 +12,10 @@ const CONFIG = {
   whatsappNumber: "551938956716", 
   
   // Mensagem pré-preenchida de conversão para o WhatsApp
-  defaultMessage: "Oi! Vi a promoção do Ensaio Gestante (de R$800 por R$500) e quero garantir minha vaga em setembro.",
+  defaultMessage: "Olá! Vi o site do Ensaio Gestante da Aquarela Fotografia e gostaria de consultar as vagas e condições disponíveis.",
   
-  // Data limite da oferta (Setembro 2026)
-  targetDate: new Date("2026-09-30T23:59:59").getTime()
+  // Data limite da oferta
+  targetDate: new Date("2026-10-31T23:59:59").getTime()
 };
 
 // --------------------------------------------------------------------------
@@ -29,11 +29,9 @@ function openWhatsApp(ctaLocation = 'desconhecido') {
   // 1. Rastreamento Meta Pixel (se instalado na página)
   if (typeof fbq === 'function') {
     fbq('track', 'Lead', {
-      content_name: 'Ensaio Gestante Promocional',
+      content_name: 'Ensaio Gestante Exclusivo',
       content_category: 'Conversao WhatsApp',
-      cta_location: ctaLocation,
-      value: 500.00,
-      currency: 'BRL'
+      cta_location: ctaLocation
     });
   }
 
@@ -42,8 +40,7 @@ function openWhatsApp(ctaLocation = 'desconhecido') {
   window.dataLayer.push({
     event: 'whatsapp_click',
     cta_location: ctaLocation,
-    offer_name: 'Ensaio Gestante Setembro',
-    offer_price: 500
+    offer_name: 'Ensaio Gestante'
   });
 
   // 3. Monta a URL direta do WhatsApp (wa.me/551938956716)
